@@ -31,7 +31,7 @@ client.on('message', message => {
         message.channel.send('**Evorsio is an upcoming sanbox**');
         } else if (message.content === `-server`) {
 		message.channel.send(`Server name: ${message.guild.name}\nTotal members: ${message.guild.memberCount}`);
-         
+	}
 });
 
  
